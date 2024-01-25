@@ -29,6 +29,15 @@ class ULListStr {
     }
   };
 
+  /* Data Members
+
+  Item* head_;
+  Item* tail_;
+  size_t size_;
+
+  */
+  
+
   /**
    * Default constructor - empty list
    */
@@ -130,6 +139,9 @@ class ULListStr {
   Item* head_;
   Item* tail_;
   size_t size_;
+
+
+
 };
 
 #endif
